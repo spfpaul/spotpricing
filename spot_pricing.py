@@ -4,6 +4,7 @@ import datetime
 import csv
 from operator import itemgetter
 
+# Adjust the config below to get result that you need
 DAYS_AGO = 0
 START_TIME = datetime.datetime.now() - datetime.timedelta(days=DAYS_AGO)
 REGION = 'eu-west-1'
