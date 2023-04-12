@@ -20,7 +20,7 @@ OD_PRODUCT = 'AmazonEC2'
 OD_OS = 'Linux'
 OD_TENANCY = 'Shared'
 # Only show instance types when THRESHOLD_LOW < (Spot instance discount - Savings Plan discount) < THRESHOLD_HIGH
-THRESHOLD_LOW = 0
+THRESHOLD_LOW = -100
 THRESHOLD_HIGH = 100
 OUTPUT_FILE = 'pricing.csv'
 
